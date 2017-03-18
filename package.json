@@ -1,0 +1,14 @@
+{
+  "name": "frontas",
+  "version": "1.0.0",
+  "description": "frontendo namu darbas",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Mindaugas Ažubalis",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
