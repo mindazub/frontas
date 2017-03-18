@@ -2,6 +2,10 @@ body {
     font-family: Helvetica;
 }
 
+a li{
+    text-decoration: none;
+}
+
 .content {
     margin: 100px;
 
@@ -12,4 +16,21 @@ body {
     &__description {
         color: #999;
     }
+
+
+}
+
+
+
+body {
+    background: yellowgreen;
+}
+
+img {
+    margin: 3em;
+}
+
+.name-title {
+    font-family: Lato;
+    font-size: 25px;
 }
