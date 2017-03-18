@@ -1,9 +1,15 @@
 body {
     font-family: Helvetica;
+
+    margin: 55px;
+
+    ul{
+        list-style-type: none;
+    }
 }
 
-a li{
-    text-decoration: none;
+.categories-block {
+    padding-top: 35px;
 }
 
 .content {
@@ -21,9 +27,13 @@ a li{
 }
 
 
+p {
+    font-size: 25px;
+}
+
 
 body {
-    background: yellowgreen;
+    background: #ecf0f1;
 }
 
 img {
@@ -32,5 +42,12 @@ img {
 
 .name-title {
     font-family: Lato;
-    font-size: 25px;
+    font-size: 55px;
 }
+
+.category-name {
+    font-family: Lato;
+    font-size: 35px;
+
+}
+
