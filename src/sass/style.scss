@@ -26,6 +26,32 @@ body {
 
 }
 
+//LARGER BUTTON
+
+
+.btn{
+    min-width:355px;
+    min-height: 100px;
+    font-size: 55px;
+    margin: 35px;
+    a {
+        color: #ecf0f1;
+        text-decoration: none;
+    }
+}
+
+//
+//
+
+
+
+
+
+
+
+.button-panel {
+    height: 150px;
+}
 
 p {
     font-size: 25px;
@@ -80,7 +106,14 @@ blockquote p {
 }
 
 
+//SOCIAL ICONS
 
+.social-icons {
+
+    display: inline;
+    float: none;
+}
+//
 
 .timeline {
     list-style: none;
@@ -128,8 +161,8 @@ blockquote p {
     width: 46%;
     float: left;
     border: 1px solid #d4d4d4;
-    border-radius: 2px;
-    padding: 20px;
+    border-radius: 4px;
+    padding: 40px;
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -231,6 +264,11 @@ blockquote p {
 }
 
 @media (max-width: 767px) {
+
+    body {
+        font-size: 10px;
+    }
+
     ul.timeline:before {
         left: 40px;
     }
